@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('git checkout') {
             steps {
-                git branch :'main',url :
+                git branch :'main',url :https://github.com/awshc034/testing.git
             }
         }
     stage ('compile') {
